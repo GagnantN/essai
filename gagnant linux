@@ -1,0 +1,83 @@
+gagnant@gagnant-GL552VW:~$ pwd
+/home/gagnant
+gagnant@gagnant-GL552VW:~$ cd Documents/WildCodes/
+gagnant@gagnant-GL552VW:~/Documents/WildCodes$ ls
+ Bootstrap   Exercice_1   Exercice_Shell  'Gandalf image'   git   Site
+gagnant@gagnant-GL552VW:~/Documents/WildCodes$ cd 'Gandalf image'/
+gagnant@gagnant-GL552VW:~/Documents/WildCodes/Gandalf image$ ls
+index.html  style.css
+gagnant@gagnant-GL552VW:~/Documents/WildCodes/Gandalf image$ code index.html 
+gagnant@gagnant-GL552VW:~/Documents/WildCodes/Gandalf image$ cd Images
+bash: cd: Images: Aucun fichier ou dossier de ce type
+gagnant@gagnant-GL552VW:~/Documents/WildCodes/Gandalf image$ cd 
+gagnant@gagnant-GL552VW:~$ cd Images/
+gagnant@gagnant-GL552VW:~/Images$ ls
+'Capture d’écran de 2019-02-04 12-17-20.png'
+'Capture d’écran de 2019-02-20 09-04-55.png'
+'Capture d’écran de 2019-02-27 16-50-19.png'
+'Capture d’écran de 2019-02-28 09-29-46.png'
+gagnant@gagnant-GL552VW:~/Images$ cd ..
+gagnant@gagnant-GL552VW:~$ cd ..
+gagnant@gagnant-GL552VW:/home$ pw
+pw : commande introuvable
+gagnant@gagnant-GL552VW:/home$ pwd
+/home
+gagnant@gagnant-GL552VW:/home$ ls /home
+gagnant
+gagnant@gagnant-GL552VW:/home$ cd gagnant/
+gagnant@gagnant-GL552VW:~$ ls Images/
+'Capture d’écran de 2019-02-04 12-17-20.png'
+'Capture d’écran de 2019-02-20 09-04-55.png'
+'Capture d’écran de 2019-02-27 16-50-19.png'
+'Capture d’écran de 2019-02-28 09-29-46.png'
+gagnant@gagnant-GL552VW:~$ ls -l
+total 52
+drwxr-xr-x 3 gagnant gagnant 4096 févr. 20 08:46 Bureau
+drwxr-xr-x 7 gagnant gagnant 4096 févr. 27 09:54 Documents
+-rw-r--r-- 1 gagnant gagnant 8980 janv. 22 12:43 examples.desktop
+drwxr-xr-x 2 gagnant gagnant 4096 févr. 28 09:29 Images
+drwxr-xr-x 2 gagnant gagnant 4096 janv. 22 13:54 Modèles
+drwxr-xr-x 2 gagnant gagnant 4096 janv. 22 13:54 Musique
+drwxr-xr-x 3 gagnant gagnant 4096 févr. 27 15:12 node_modules
+drwxr-xr-x 2 gagnant gagnant 4096 janv. 22 13:54 Public
+drwxr-xr-x 5 gagnant gagnant 4096 févr. 12 09:42 snap
+drwxr-xr-x 2 gagnant gagnant 4096 févr. 27 15:10 Téléchargements
+drwxr-xr-x 2 gagnant gagnant 4096 janv. 22 13:54 Vidéos
+gagnant@gagnant-GL552VW:~$ ll
+total 160
+drwxr-xr-x 26 gagnant gagnant  4096 févr. 28 08:53 ./
+drwxr-xr-x  3 root    root     4096 janv. 22 12:43 ../
+-rw-------  1 gagnant gagnant  7821 févr. 28 10:02 .bash_history
+-rw-r--r--  1 gagnant gagnant   220 janv. 22 12:43 .bash_logout
+-rw-r--r--  1 gagnant gagnant  2069 févr. 26 09:56 .bash_profile
+-rw-r--r--  1 gagnant gagnant  4055 févr. 27 11:54 .bashrc
+drwxr-xr-x  3 gagnant gagnant  4096 févr. 20 08:46 Bureau/
+drwx------ 24 gagnant gagnant  4096 févr. 26 14:07 .cache/
+drwx------ 24 gagnant gagnant  4096 févr. 27 13:47 .config/
+drwx------  2 gagnant gagnant  4096 févr. 11 09:08 .cups/
+drwx------  3 root    root     4096 févr. 26 10:08 .dbus/
+drwxr-xr-x  7 gagnant gagnant  4096 févr. 27 09:54 Documents/
+-rw-r--r--  1 gagnant gagnant  8980 janv. 22 12:43 examples.desktop
+drwx------  2 gagnant gagnant  4096 févr. 28 08:55 .gconf/
+-rw-r--r--  1 gagnant gagnant    67 févr. 27 11:35 .gitconfig
+drwx------  3 gagnant gagnant  4096 janv. 23 17:38 .gnome/
+drwx------  3 gagnant gagnant  4096 févr. 12 09:20 .gnupg/
+-rw-------  1 gagnant gagnant 12390 févr. 28 08:53 .ICEauthority
+drwxr-xr-x  2 gagnant gagnant  4096 févr. 28 09:29 Images/
+drwx------  3 gagnant gagnant  4096 janv. 22 13:53 .local/
+drwxr-xr-x  2 gagnant gagnant  4096 janv. 22 13:54 Modèles/
+drwx------  5 gagnant gagnant  4096 janv. 23 18:21 .mozilla/
+drwxr-xr-x  2 gagnant gagnant  4096 janv. 22 13:54 Musique/
+drwxr-xr-x  3 gagnant gagnant  4096 févr. 27 15:12 node_modules/
+drwxrwxr-x  6 gagnant gagnant  4096 févr. 27 15:12 .npm/
+drwx------  3 gagnant gagnant  4096 janv. 23 17:38 .pki/
+-rw-r--r--  1 gagnant gagnant   818 févr. 26 10:03 .profile
+drwxr-xr-x  2 gagnant gagnant  4096 janv. 22 13:54 Public/
+drwxr-xr-x  5 gagnant gagnant  4096 févr. 12 09:42 snap/
+drwx------  2 gagnant gagnant  4096 févr. 12 09:20 .ssh/
+-rw-r--r--  1 gagnant gagnant     0 janv. 22 11:54 .sudo_as_admin_successful
+drwxr-xr-x  2 gagnant gagnant  4096 févr. 27 15:10 Téléchargements/
+drwx------  5 gagnant gagnant  4096 févr. 11 09:19 .thunderbird/
+drwxr-xr-x  2 gagnant gagnant  4096 janv. 22 13:54 Vidéos/
+drwxrwxr-x  3 gagnant gagnant  4096 févr. 18 11:15 .vscode/
+gagnant@gagnant-GL552VW:~$ 
